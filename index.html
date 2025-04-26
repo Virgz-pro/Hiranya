@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hiranya Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+      }
+      .bg-image {
+        background-image: url("Assets/background.png");
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="relative min-h-screen w-full bg-image">
+      <!-- Overlay -->
+      <div class="absolute inset-0 bg-black opacity-40"></div>
+
+      <!-- Container Konten -->
+      <div class="relative z-20 pt-6 lg:pt-14 min-h-screen flex flex-col container mx-auto px-4">
+        <!-- Header/Navigation -->
+        <header class="w-full py-4 flex flex-col lg:flex-row items-center lg:items-start gap-6 lg:gap-0">
+          <!-- Bagian Our Partner -->
+          <div class="flex-1 flex-col items-center text-white hidden lg:flex">
+            <div class="text-lg md:text-xl font-bold mb-2">Our Partner</div>
+            <div class="bg-white rounded-full px-4 py-2 flex flex-wrap justify-center items-center gap-2 md:space-x-3 bg-opacity-60">
+              <div class="w-8 h-8 flex items-center">
+                <img src="Assets/LOGO_KEMENPAREKRAF_(BAPAREKRAF).png" alt="" />
+              </div>
+              <div class="w-8 h-8 flex items-center">
+                <img src="Assets/Logo_Kementerian_Ekonomi_Kreatif_-_Badan_Ekonomi_Kreatif_RI_(2024)_v2.svg.png" alt="" />
+              </div>
+              <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center">
+                <img src="Assets/Logo_Kementerian_Kebudayaan_Republik_Indonesia_(2024)_(cropped).svg.png" alt="" />
+              </div>
+              <div class="w-8 h-8 flex items-center">
+                <img src="Assets/Agoda_logo_2019.svg.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Navigasi -->
+          <nav class="flex-1 w-full lg:w-auto hidden lg:block">
+            <ul class="flex flex-wrap justify-center gap-4 lg:justify-center lg:space-x-8 text-white text-base md:text-xl">
+              <li class="font-bold border-b-2 lg:border-b-4 border-green-500 pb-1">
+                <a href="#home">Home</a>
+              </li>
+              <li class="font-bold">
+                <a href="#about">About</a>
+              </li>
+              <li class="font-bold">
+                <a href="#license">License</a>
+              </li>
+              <li class="font-bold">
+                <a href="#service">Service</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Logo -->
+          <div class="flex-1 flex justify-center">
+            <a href="#home">
+              <img src="Assets/HIRANYA LGOO putig.png" alt="Hiranya Logo" class="h-12 md:h-16" />
+            </a>
+          </div>
+        </header>
+
+        <!-- Fitur Utama -->
+        <section class="w-full flex flex-col items-center lg:pt-12 pt-16 pb-10" id="home">
+          <h1 class="text-2xl md:text-4xl font-bold text-white text-center mb-10 md:mb-12">Hiranya Main Feature</h1>
+
+          <div class="flex flex-wrap justify-center gap-8 md:gap-16 max-w-5xl mx-auto">
+            <!-- Feature Items -->
+            <a href="destination.html" class="flex flex-col items-center w-28 md:w-auto hover:scale-110 transition-transform">
+              <div class="w-16 h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center mb-2 md:mb-3 bg-white bg-opacity-30 p-2">
+                <img src="Assets/image.png" alt="Destination" />
+              </div>
+              <p class="text-white font-semibold text-base md:text-lg">Destination</p>
+            </a>
+
+            <a href="local-culture.html" class="flex flex-col items-center w-28 md:w-auto hover:scale-110 transition-transform">
+              <div class="w-16 h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center mb-2 md:mb-3 bg-white bg-opacity-30 p-2">
+                <img src="Assets/image (1).png" alt="Local Culture" />
+              </div>
+              <p class="text-white font-semibold text-base md:text-lg">Local Culture</p>
+            </a>
+
+            <a href="local-souvenir.html" class="flex flex-col items-center w-28 md:w-auto hover:scale-110 transition-transform">
+              <div class="w-16 h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center mb-2 md:mb-3 bg-white bg-opacity-30 p-2">
+                <img src="Assets/image (2).png" alt="Local Souvenir" />
+              </div>
+              <p class="text-white font-semibold text-base md:text-lg">Local Souvenir</p>
+            </a>
+
+            <a href="tourguide.html" class="flex flex-col items-center w-28 md:w-auto hover:scale-110 transition-transform">
+              <div class="w-16 h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center mb-2 md:mb-3 bg-white bg-opacity-30 p-2">
+                <img src="Assets/image (3).png" alt="TourGuide" />
+              </div>
+              <p class="text-white font-semibold text-base md:text-lg">TourGuide</p>
+            </a>
+
+            <a href="trip-community.html" class="flex flex-col items-center w-28 md:w-auto hover:scale-110 transition-transform">
+              <div class="w-16 h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center mb-2 md:mb-3 bg-white bg-opacity-30 p-2">
+                <img src="Assets/image (4).png" alt="Trip Community" />
+              </div>
+              <p class="text-white font-semibold text-base md:text-lg">Trip Community</p>
+            </a>
+          </div>
+        </section>
+
+        <!-- Konten Bawah -->
+        <section class="mt-10 md:mt-12 w-full flex flex-col md:flex-row justify-between px-6 md:px-20 lg:px-40 pb-16 gap-8 md:gap-0" id="about">
+          <div class="md:w-1/2">
+            <h2 class="text-xl md:text-2xl font-bold text-white mb-3 md:mb-4">Introducing Indonesia Culture To The World</h2>
+            <p class="text-white text-base md:text-xl font-light">Explore the wonderful Indonesia and learn about Indonesian culture with Hiranya.</p>
+          </div>
+
+          <div class="md:w-1/2">
+            <h2 class="text-xl md:text-2xl font-bold text-white mb-3 md:mb-4">Get the best Experience</h2>
+            <p class="text-white text-base md:text-xl font-light">Explore the beautiful Indonesia with Hiranya for an unforgettable experience.</p>
+          </div>
+        </section>
+
+        <!-- Scroll Down Indicator -->
+        <div class="w-full flex justify-center pb-6">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 md:h-10 w-8 md:w-10 text-white animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
